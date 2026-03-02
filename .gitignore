@@ -1,0 +1,4 @@
+*.jpg
+*.png
+!output/one_nerd.png
+!output/two_hamster.jpg
