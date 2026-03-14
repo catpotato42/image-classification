@@ -11,4 +11,4 @@ Assuming you have python installed, run:
 
 `pip install -r requirements.txt`
 
-Then, simply run the command `python3 .\output_to_image` from the root folder. The images in /output should give you a hint as to what gesture you need to do in order for the model to recognize each class (most are with left hand only). Attempt in a well lit room.
+Then, simply run the command `python3 .\output_to_image` from the root folder. The images in /output should give you a hint as to what gesture you need to do in order for the model to recognize each class except five which is just holding up a five with your left hand (most are with left hand only). Attempt in a well lit room.
