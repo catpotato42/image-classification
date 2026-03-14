@@ -2,5 +2,5 @@
 *.png
 
 # exceptions
-!image-classification/output/
-!image-classification/output/**
+!output/
+!output/**
