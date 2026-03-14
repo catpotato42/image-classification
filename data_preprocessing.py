@@ -32,6 +32,6 @@ for cls in CLASSES:
         img = cv2.imread(img_path)
         #save original
         cv2.imwrite(os.path.join(EXPORT_DIR, cls, f"{i}.jpg"), img)
-        #ave augmented
+        #save augmented
         aug_img = apply_transforms(img)
         cv2.imwrite(os.path.join(EXPORT_DIR, cls, f"aug_{i}.jpg"), aug_img)

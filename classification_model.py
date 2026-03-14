@@ -119,7 +119,7 @@ if __name__ == '__main__':
             torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
             optimizer.step()
             
-            # Update the progress bar text with the current loss
+            # update the progress bar text with the current loss
             progress_bar.set_postfix(loss=f"{loss.item():.4f}")
         torch.save(model.state_dict(), f"./models/checkpoints/checkpoint_epoch_{epoch+1}.pth")
 
