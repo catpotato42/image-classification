@@ -1,0 +1,6 @@
+*.jpg
+*.png
+
+# exceptions
+!image-classification/output/
+!image-classification/output/**
